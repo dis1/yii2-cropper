@@ -3,7 +3,7 @@
         var cropper = {
             $widget: $(this).parent('.cropper_widget'),
             $progress: $(this).parent('.cropper_widget').find('.progress'),
-            $thumbnail: $(this).find('.thumbnail'),
+            $thumbnail: $(this).parent('.cropper_widget').find('.thumbnail'),
             uploader: null,
             reader: null,
             selectedFile: null,
