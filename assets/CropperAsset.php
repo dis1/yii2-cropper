@@ -12,7 +12,7 @@ class CropperAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@budyaga/cropper/web/';
+    public $sourcePath = '@dis1/cropper/web/';
 
     /**
      * @inheritdoc
@@ -33,7 +33,7 @@ class CropperAsset extends AssetBundle
      */
     public $depends = [
         'yii\web\JqueryAsset',
-        'budyaga\cropper\assets\JcropAsset',
-        'budyaga\cropper\assets\SimpleAjaxUploaderAsset',
+        'dis1\cropper\assets\JcropAsset',
+        'dis1\cropper\assets\SimpleAjaxUploaderAsset',
     ];
 }
