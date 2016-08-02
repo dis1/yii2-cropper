@@ -6,7 +6,7 @@
  * Time: 19:20
  */
 
-namespace budyaga\cropper\assets;
+namespace dis1\cropper\assets;
 
 
 use yii\web\AssetBundle;

@@ -1,7 +1,7 @@
 <?php
 /**
  * @var \yii\db\ActiveRecord $model
- * @var \budyaga\cropper\Widget $widget
+ * @var \dis1\cropper\Widget $widget
  *
  */
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace budyaga\cropper\actions;
+namespace dis1\cropper\actions;
 
 use yii\base\Action;
 use yii\base\DynamicModel;
@@ -8,7 +8,7 @@ use yii\base\InvalidConfigException;
 use yii\web\BadRequestHttpException;
 use yii\web\Response;
 use yii\web\UploadedFile;
-use budyaga\cropper\Widget;
+use dis1\cropper\Widget;
 use yii\imagine\Image;
 use Imagine\Image\Box;
 use Yii;
